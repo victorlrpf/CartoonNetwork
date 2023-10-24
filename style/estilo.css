@@ -21,10 +21,55 @@ body{
     color: white;
 }
 
-.logo{
-    width: 200px;
+/* Apenas um show*/
+.apenas-um-show{
+    color:white;
+    margin-top: 4vh;
 }
 
+.barra-show{
+    background: #367db8;
+    
+}
+
+.rigby{
+    background: linear-gradient(#c2a57d, #714a18 );
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.mordecai{
+    background: linear-gradient(#938ee1, #64639b);
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.ailim{
+    background: #3c4751;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.patinhos{
+    background: #3c4751;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.pairulito{
+    background: #3c4751;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 140px;
+} 
 
 @media (max-width: 920px) {
     .conteudo-left{
@@ -57,6 +102,52 @@ body{
     .titulo-cartoon{
         width: 18rem;
         text-align: center;
+    }
+    
+    .cards{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .rigby{
+        background: linear-gradient(#c2a57d, #714a18 );
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .mordecai{
+        background: linear-gradient(#938ee1, #64639b);
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .ailim{
+        background: #3c4751;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .patinhos{
+        background: #3c4751;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .pairulito{
+        background: #3c4751;
+        border-radius: 10px;
+        padding: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
     }
 }
 
